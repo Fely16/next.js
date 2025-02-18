@@ -9197,6 +9197,7 @@ dependencies = [
  "serde_json",
  "serde_regex",
  "shrink-to-fit",
+ "smallvec",
  "thiserror",
  "tokio",
  "tokio-util",
