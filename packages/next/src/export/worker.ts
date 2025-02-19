@@ -596,7 +596,7 @@ async function exportPage(
   return {
     duration: Date.now() - start,
     ampValidations: result.ampValidations,
-    revalidate: result.revalidate,
+    cacheControl: result.cacheControl,
     metadata: result.metadata,
     ssgNotFound: result.ssgNotFound,
     hasEmptyPrelude: result.hasEmptyPrelude,
