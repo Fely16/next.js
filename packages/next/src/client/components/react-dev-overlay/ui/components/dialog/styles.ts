@@ -47,19 +47,7 @@ const styles = `
     background-color: #ddd;
   }
 
-  @media (prefers-color-scheme: dark) {
-    [data-nextjs-dialog]::-webkit-scrollbar-track {
-      background-color: #0a0a0a;
-    }
-    [data-nextjs-dialog]::-webkit-scrollbar-thumb {
-      background-color: #333;
-    }
-  }
-  
-
-  ${
-    '' /* Place overflow: hidden on this so we can break out from [data-nextjs-dialog] */
-  }
+  /* Place overflow: hidden on this so we can break out from [data-nextjs-dialog] */
   [data-nextjs-dialog-sizer] {
     overflow: hidden;
     border-radius: inherit;
